@@ -442,5 +442,8 @@
 		this.setAnimation();
 		this.waiting = 1;
 		this.exiting = true;
+		window.setTimeout(function() {
+			window.location.href = 'https://tamarabfreeman.ca'
+		}, 2000)
 	}
 })();
